@@ -8,7 +8,7 @@ interface Property {
   title: string;
   price: string;
   location: string;
-  image?: string; 
+  image?: string;
   images?: string[];
 }
 

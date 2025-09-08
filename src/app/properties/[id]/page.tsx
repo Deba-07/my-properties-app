@@ -12,15 +12,14 @@ interface Props {
 }
 
 export default function PropertyDetail({ params }: Props) {
-    // Carousel setup
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
-  
-    const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
-    const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
+  // Carousel setup
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
+
+  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
   const property = properties.find((p) => p.id === Number(params.id));
 
   if (!property) return notFound();
-
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 flex items-center justify-center p-6">
@@ -69,7 +68,6 @@ export default function PropertyDetail({ params }: Props) {
 
         {/* Content */}
         <div className="p-6 relative">
-
           <h1 className="text-3xl font-extrabold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
             {property.title}
           </h1>

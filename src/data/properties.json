@@ -5,7 +5,11 @@
     "price": "$1,200 / month",
     "location": "New York, USA",
     "image": "/images/property1.jpg",
-    "images": ["/images/property1.jpg", "/images/property2.jpg", "/images/property3.jpg"],
+    "images": [
+      "/images/property1.jpg",
+      "/images/property2.jpg",
+      "/images/property3.jpg"
+    ],
     "description": "A stylish modern apartment located in the heart of New York City, offering spacious living and stunning skyline views."
   },
   {
@@ -14,7 +18,11 @@
     "price": "$950 / month",
     "location": "Texas, USA",
     "image": "/images/property2.jpg",
-    "images": ["/images/property2.jpg", "/images/property3.jpg", "/images/property4.jpg"],
+    "images": [
+      "/images/property2.jpg",
+      "/images/property3.jpg",
+      "/images/property4.jpg"
+    ],
     "description": "A warm and inviting cottage in Texas, perfect for small families or couples seeking a quiet escape."
   },
   {
@@ -23,7 +31,11 @@
     "price": "$3,500 / month",
     "location": "Los Angeles, USA",
     "image": "/images/property3.jpg",
-    "images": ["/images/property3.jpg", "/images/property4.jpg", "/images/property5.jpg"],
+    "images": [
+      "/images/property3.jpg",
+      "/images/property4.jpg",
+      "/images/property5.jpg"
+    ],
     "description": "A breathtaking luxury villa in Los Angeles with a private pool, spacious interiors, and high-end finishes."
   },
   {
@@ -32,7 +44,11 @@
     "price": "$2,000 / month",
     "location": "Miami, USA",
     "image": "/images/property4.jpg",
-    "images": ["/images/property4.jpg", "/images/property5.jpg", "/images/property6.jpg"],
+    "images": [
+      "/images/property4.jpg",
+      "/images/property5.jpg",
+      "/images/property6.jpg"
+    ],
     "description": "A beautiful beachside bungalow in Miami, just steps away from the ocean. Perfect for summer getaways."
   },
   {
@@ -41,7 +57,11 @@
     "price": "$1,800 / month",
     "location": "Chicago, USA",
     "image": "/images/property5.jpg",
-    "images": ["/images/property5.jpg", "/images/property6.jpg", "/images/property7.jpg"],
+    "images": [
+      "/images/property5.jpg",
+      "/images/property6.jpg",
+      "/images/property7.jpg"
+    ],
     "description": "A chic urban loft with an industrial design, offering open spaces and a vibrant city lifestyle."
   },
   {
@@ -50,7 +70,11 @@
     "price": "$1,100 / month",
     "location": "Kentucky, USA",
     "image": "/images/property6.jpg",
-    "images": ["/images/property6.jpg", "/images/property7.jpg", "/images/property8.jpg"],
+    "images": [
+      "/images/property6.jpg",
+      "/images/property7.jpg",
+      "/images/property8.jpg"
+    ],
     "description": "A peaceful country house surrounded by nature, ideal for those who enjoy tranquility and greenery."
   },
   {
@@ -59,7 +83,11 @@
     "price": "$5,000 / month",
     "location": "San Francisco, USA",
     "image": "/images/property7.jpg",
-    "images": ["/images/property7.jpg", "/images/property8.jpg", "/images/property9.jpg"],
+    "images": [
+      "/images/property7.jpg",
+      "/images/property8.jpg",
+      "/images/property9.jpg"
+    ],
     "description": "An exclusive penthouse suite with panoramic city views, luxury amenities, and top-notch security."
   },
   {
@@ -68,7 +96,11 @@
     "price": "$1,400 / month",
     "location": "Seattle, USA",
     "image": "/images/property8.jpg",
-    "images": ["/images/property8.jpg", "/images/property9.jpg", "/images/property10.jpg"],
+    "images": [
+      "/images/property8.jpg",
+      "/images/property9.jpg",
+      "/images/property10.jpg"
+    ],
     "description": "A spacious suburban home in a family-friendly neighborhood, featuring a backyard and modern kitchen."
   },
   {
@@ -77,7 +109,11 @@
     "price": "$850 / month",
     "location": "Boston, USA",
     "image": "/images/property9.jpg",
-    "images": ["/images/property9.jpg", "/images/property10.jpg", "/images/property1.jpg"],
+    "images": [
+      "/images/property9.jpg",
+      "/images/property10.jpg",
+      "/images/property1.jpg"
+    ],
     "description": "A compact studio apartment ideal for students or professionals, located close to public transport."
   },
   {
@@ -86,7 +122,11 @@
     "price": "$1,600 / month",
     "location": "Colorado, USA",
     "image": "/images/property10.jpg",
-    "images": ["/images/property10.jpg", "/images/property1.jpg", "/images/property2.jpg"],
+    "images": [
+      "/images/property10.jpg",
+      "/images/property1.jpg",
+      "/images/property2.jpg"
+    ],
     "description": "A cozy mountain cabin surrounded by stunning views, offering the perfect escape from busy city life."
   }
 ]
