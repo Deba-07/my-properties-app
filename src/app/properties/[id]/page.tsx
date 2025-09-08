@@ -1,9 +1,9 @@
 "use client";
 
 import properties from "@/data/properties.json";
-import { notFound, useRouter } from "next/navigation";
+import { notFound } from "next/navigation";
 import { motion } from "framer-motion";
-import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback } from "react";
 
@@ -12,16 +12,15 @@ interface Props {
 }
 
 export default function PropertyDetail({ params }: Props) {
-  const router = useRouter();
+    // Carousel setup
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
+  
+    const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+    const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
   const property = properties.find((p) => p.id === Number(params.id));
 
   if (!property) return notFound();
 
-  // Carousel setup
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
-
-  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
-  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 flex items-center justify-center p-6">
