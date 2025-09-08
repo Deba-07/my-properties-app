@@ -23,7 +23,7 @@ This project demonstrates modern frontend practices, including **glassmorphism U
 ## Demo
 
 You can see a live demo here:  
-[Live Site on Vercel](YOUR_VERCEL_LINK_HERE)
+[Live Site on Vercel](https://my-properties-app.vercel.app/)
 
 ---
 
