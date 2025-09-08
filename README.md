@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Property Marketplace Demo
+
+A small **Next.js + TypeScript** demo web application showcasing a list of properties with detail pages, a responsive carousel, and live search. Styled with **TailwindCSS** and animated with **Framer Motion**.  
+
+This project demonstrates modern frontend practices, including **glassmorphism UI**, **responsive layouts**, and **optimized images** using `next/image`.  
+
+---
+
+## Features
+
+- Display 10 properties with **title, price, location, and images**
+- Property detail page with **carousel of images**
+- **Responsive design** for mobile and desktop
+- **Live search** to filter properties by title or location
+- **Premium UI/UX** with gradients, hover effects, and animations
+- **Back button** to navigate to the main page
+- Optimized images using Next.js `<Image>` component
+- Smooth transitions and animations with **Framer Motion**
+- Glassmorphism style for carousel controls and buttons
+
+---
+
+## Demo
+
+You can see a live demo here:  
+[Live Site on Vercel](YOUR_VERCEL_LINK_HERE)
+
+---
+
+## Tech Stack
+
+- **Next.js 14+ (App Router)**  
+- **TypeScript**  
+- **TailwindCSS**  
+- **Framer Motion** for animations  
+- **Embla Carousel** for property image slider  
+- **Next/Image** for optimized images  
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/property-marketplace.git
+cd property-marketplace
+```
+---
+
+### Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+---
+
+## Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open http://localhost:3000 with your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+src/
+  app/
+    properties/
+      [id]/page.tsx        # Property detail page
+    page.tsx               # Main page listing all properties
+  components/
+    Navbar.tsx             # Sticky navbar with search
+    PropertyCard.tsx       # Property preview card
+  data/
+    properties.json        # Property data
+```
